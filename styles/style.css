@@ -79,15 +79,6 @@ ol {
   padding-bottom: 3px;
 }
 
-.content__list-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  position: relative;
-  height: 298px;
-  overflow: auto;
-}
-
 .content__details {
   display: flex;
   flex-direction: column;
@@ -110,6 +101,15 @@ ol {
   object-fit: cover;
   object-position: center;
   cursor: pointer;
+}
+
+.content__list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  height: 298px;
+  overflow: auto;
 }
 
 .content__list {
@@ -188,6 +188,7 @@ ol {
 }
 
 .content__video-card-title {
+  width: 196px;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -201,7 +202,7 @@ ol {
 .content__video-card-description {
   font-weight: 400;
   font-size: 18px;
-  line-height: 16.2px;
+  line-height: 1.0125;
 }
 
 .search-form__checkbox-list {
